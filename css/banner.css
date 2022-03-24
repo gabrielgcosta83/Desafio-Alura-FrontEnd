@@ -1,0 +1,49 @@
+
+.banner {
+	width: 100%;
+	margin: 10px auto;
+	position: relative;
+}
+
+.banner__imagem{
+	position: static;
+	margin: 0rem auto;
+	width: 100%;
+}
+
+.banner__containertitulo{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+}
+
+.banner__titulo {
+	position: static;
+	margin-bottom: 1.0rem;
+	font-size: 52px;
+	line-height: 61px;
+	color: #FFFFFF;
+}
+
+.banner__subtitulo {
+	position: static;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+.banner_botao {
+	position: static;
+	left: 0px;
+	padding: 1.4rem;
+	margin: 16px 0px;
+
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 19px;
+
+	background: #2A7AE4;
+	border: none;
+}

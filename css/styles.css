@@ -1,0 +1,41 @@
+.produtoxyz {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.produtoxyz__container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5rem;
+	width: 60%;
+}
+
+.produtoxyz__detalhes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1.5rem;
+}
+
+.produtoxyz__titulo {
+	font-size: 52px;
+	font-weight: 500;
+	color: #464646;
+	margin: 8px 0px;
+}
+
+.produtoxyz__subtitulo {
+	font-size: 16px;
+	font-weight: 700;
+	color: #464646;
+	margin: 8px 0px;
+}
+
+.produtoxyz__descricao {
+	font-size: 16px;
+	font-weight: 400;
+	color: #464646;
+	margin: 8px 0px;
+}
+

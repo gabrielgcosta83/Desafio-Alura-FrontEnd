@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>AluraGeek - Login</title>
+		<script src="https://kit.fontawesome.com/a42e8f9f55.js" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+		<link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/rodape.css">
+		<link rel="stylesheet" href="./css/cabecalho.css">
+		<link rel="stylesheet" href="./css/login.css">
+	</head>
+
+	<body>
+		<header class="cabecalho">
+			<div class=cabecalho__container>
+				<div class="cabecalho__ladoesquerdo">
+					<a href="index.html"><img src="./images/home/Logo.png" alt="logo"></a>
+					<form>
+						<input class="cabecalho__busca" type="text" name="busca" placeholder="O que deseja encontrar?">
+						<!-- <button class="cabecalho__busca__botao" type="submit"><i class="fa-regular fa-magnifying-glass"></i></button> -->
+					</form>
+				</div>
+				<a href="login.html" class="cabecalho__botao">Login</a>
+			</div>
+		</header>
+
+		<main>
+			<section class="login">
+				<div class="login__container">
+					<h2 class="login__titulo">Iniciar Sessão</h2>
+					<form class="login__form">
+						<input type="email" name="email" class="login__email" placeholder="Escreva seu e-mail" required>
+						<input type="password" name="password" class="login__password" placeholder="Escreva sua senha" required>
+						<input type="submit" name="submit" class="login__submit" value="Entrar">
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="Rodape">
+				<div class="Rodape__container">
+					<a href="index.html"><img src="./images/home/Logo.png" alt="logo"></a>
+					<nav class="menu">
+						<ul class="menu__lista">
+							<li class="menu__item"><a href="#" class="menu__link">Quem somos nós</li></a>
+							<li class="menu__item"><a href="#" class="menu__link">Política de privacidade</li></a>
+							<li class="menu__item"><a href="#" class="menu__link">Programa fidelidade</li></a>
+							<li class="menu__item"><a href="#" class="menu__link">Nossas lojas</li></a>
+							<li class="menu__item"><a href="#" class="menu__link">Quero ser franqueado</li></a>
+							<li class="menu__item"><a href="#" class="menu__link">Anuncie aqui</li></a>
+						</ul>
+					</nav>
+					<div class="faleconosco">
+						<h1 class="faleconosco__titulo">Fale Conosco</h1>
+						<form>
+							<div class="nome__container">
+								<label for="nome" class="nome__label">Nome</label></br>
+								<input type="text" id="nome" placeholder="André Lisboa" class="nome__input" required>
+							</div>
+							<textarea class="faleconosco__msg" placeholder="Escreva sua mensagem"></textarea>
+						<button class="faleconosco__botao">Enviar mensagem</button>
+						</form>
+					</div>
+				</div>
+			<div class="RodapeDesenvolvedor">
+				<p>Desenvolvido por Gabriel Costa<br>2021</p>
+			</div>
+		</footer>
+	</body>
+
+
+
+</html>
