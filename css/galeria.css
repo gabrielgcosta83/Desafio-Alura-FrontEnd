@@ -1,0 +1,156 @@
+.galeria {
+	display: flex;
+	flex-direction: column;
+}
+
+.galeria__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: static;
+	margin: 32px 0px;
+}
+
+.galeria__cabecalho {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.galeria__titulo {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	color: #464646;
+}
+
+.galeria__vertudo {
+	top: 2.5px;
+	margin:0;
+	line-height: 19px;
+}
+
+.galeria__adicionar {
+	padding: 12px 16px;
+	margin: 8px 0px;
+}
+
+.galeria__lista {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0;
+	width: 100%;
+	left: 0px;
+	padding-inline-start: 0px;
+	list-style-type: none;
+}
+
+.galeria__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: left;
+	width: 16%;
+	position: relative
+}
+
+.galeria__item.todos {
+    margin: 8px auto;
+	align-items: left;
+}
+
+.galeria__icone-deletar {
+    position: absolute;
+    left: 82.83%;
+    top: 5.5%;
+}
+
+.galeria__icone-editar {
+    position: absolute;
+    left: 63.5%;
+    top: 5.49%;
+}
+
+.galeria__descricao {
+	margin: 8px 0px 0px 0px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #464646;
+}
+
+.galeria__preco {
+	margin: 8px 0px 0px 0px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: #464646;
+}
+
+.galeria__codigo {
+	font-weight: 500;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #464646;
+	margin: 8px 0px 0px 0px;
+}
+
+.galeria__verproduto {
+	margin: 8px 0px 0px 0px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	color: #2A7AE4;
+}
+
+@media screen and (max-width:1024px) {
+
+	.galeria__titulo {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.galeria__item:nth-child(5) :not(.todos){
+		display: none;
+	}
+
+	.galeria__item:nth-child(6) :not(.todos){
+		display: none;
+	}
+
+	.galeria__item {
+		width: 24%;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.galeria__item {
+		width: 47%;
+		margin-bottom: 16px;
+	}
+
+	.galeria__container {
+		margin: 0px 0px 32px 0px;
+	}
+
+	.galeria {
+		margin-top: 16px;
+	}
+
+	.galeria__cabecalho.todos {
+		margin: 16px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

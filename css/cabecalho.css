@@ -2,12 +2,15 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-
 	position: relative;
-	width: 100%;
-	height: 115px;
-	
 	background: #FFFFFF;
+}
+
+.cabecalho__imagem {
+	width: 176px;	
+	height: 51px;
+	background-image: url(../images/Logo.svg);
+	margin-right: 16px;
 }
 
 .cabecalho__container {
@@ -15,10 +18,8 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	height: 115px;
 	width: 100%;
-	margin-left: 10rem;
-	margin-right: 10rem;
+	margin: 40px 0px;
 }
 
 .cabecalho__ladoesquerdo {
@@ -34,29 +35,74 @@
 
 .cabecalho__busca {
 	background: #f5f5f5;
-	border-radius: 2rem;
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem;
 	padding: 0.8rem 1.6rem;
-	width:393px;
 	border: none;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.2rem;
 	margin-left: 2rem;
+	width: 393px;
 }
 
 .cabecalho__busca:focus {
 	outline: none;
+
 }
+
+.cabecalho__busca-lupa {
+	background: #f5f5f5;
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	padding: 13px 15px;
+}
+
 
 .cabecalho__botao {
 	padding: 16px 70px;
-	font-weight: 400;
-	font-size: 16px;
-	color: #2A7AE4;
-	line-height: 20px;
-	background-color: #FFFFFF;
-	border-style:solid ;
-	border-width: 2px;
-	border-color: #2A7AE4;
-	cursor: pointer;
 }
+
+@media screen and (max-width:1024px) {
+	
+	.cabecalho__container {
+		margin: 16px 0px;
+	}
+
+	.cabecalho__busca {
+		padding: 0.5rem 2.5rem 0.5rem 1rem;
+		margin-left: 0;
+		width: 272px;
+	}
+	.cabecalho__busca-lupa {
+		padding: 9px 15px;
+	}
+	
+	.cabecalho__imagem {
+		width: calc(0.6 * 176px);	
+		height: calc(0.6 * 51px);
+		background-size: contain;
+	}
+
+	.cabecalho__botao {
+		font-size: 14px;
+		padding: 6px 50px;
+	}
+}
+
+@media screen and (max-width:767px) {
+
+	.cabecalho__busca {
+		display: none;
+	}
+
+	.cabecalho__busca-lupa {
+		display: none;
+	}
+
+	.cabecalho__botao {
+		font-size: 14px;
+		padding: 6px 42px;
+	}
+}
+

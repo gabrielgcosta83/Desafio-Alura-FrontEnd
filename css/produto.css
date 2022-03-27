@@ -1,0 +1,102 @@
+.produto {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.produto__container {
+	display: flex;
+	flex-direction: row;
+	margin: 5rem 0rem;
+	height: 403px;
+}
+
+.produto__imagem {
+	background-image: url(../images/products/StarWars/unsplash_6FDXGY9J6y4@3x.png);
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	width: 50%;
+}
+
+.produto__detalhes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1.5rem;
+	width: 50%;
+}
+
+.produto__titulo {
+	font-size: 52px;
+	font-weight: 500;
+	color: #464646;
+	margin: 8px 0px;
+}
+
+.produto__subtitulo {
+	font-size: 16px;
+	font-weight: 700;
+	color: #464646;
+	margin: 8px 0px;
+}
+
+.produto__descricao {
+	font-size: 16px;
+	font-weight: 400;
+	color: #464646;
+	margin: 8px 0px;
+}
+
+@media screen and (max-width:1024px) {
+	.produto__container {
+		flex-direction: row;
+		margin: 32px 0px 64px 0px;
+		height: 157px;
+
+	}
+
+	.produto__imagem { 
+		width: 40%;
+	}
+
+	.produto__detalhes {
+		width: 60%;
+	}
+
+	.produto__titulo {
+		font-size: 22px;
+	}
+
+	.produto__descricao {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.produto__container {
+		flex-direction: column;
+		margin: 0px;
+		height: auto;
+	}
+
+	.produto__imagem {
+		height: 192px;
+		width: 100vw;
+	}
+
+	.produto__titulo {
+		font-size: 22px;
+	}
+
+	.produto__detalhes {
+		width: 94%;
+		font-size: 14px;
+		margin: 0px auto;
+	}
+
+	main {
+		padding-bottom: 6px;
+	}
+}
+
