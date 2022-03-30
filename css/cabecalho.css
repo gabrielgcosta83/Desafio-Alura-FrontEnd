@@ -58,6 +58,10 @@
 	padding: 13px 15px;
 }
 
+.cabecalho__busca-lupa-mobile {
+	padding: 8px 8px;
+	display: none;
+}
 
 .cabecalho__botao {
 	padding: 16px 70px;
@@ -103,6 +107,10 @@
 	.cabecalho__botao {
 		font-size: 14px;
 		padding: 6px 42px;
+	}
+
+	.cabecalho__busca-lupa-mobile {
+		display: flex;
 	}
 }
 

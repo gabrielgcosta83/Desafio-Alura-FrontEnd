@@ -20,9 +20,10 @@
 			<div class=cabecalho__container>
 				<div class="cabecalho__ladoesquerdo">
 					<a href="index.html" class="cabecalho__imagem"></a>
-					<input class="cabecalho__busca" type="text" name="busca" placeholder="O que deseja encontrar?"><img src="./images/Lupa.svg" alt="Buscar" class="cabecalho__busca-lupa">
+					<input id="busca" class="cabecalho__busca" type="text" name="busca" placeholder="O que deseja encontrar?"><img src="./images/Lupa.svg" alt="Buscar" class="cabecalho__busca-lupa">
 				</div>
 				<a href="login.html" class="cabecalho__botao botao-branco">Login</a>
+				<img src="./images/Lupa.svg" alt="Buscar" class="cabecalho__busca-lupa-mobile">
 			</div>
 		</header>
 		<main>
@@ -30,7 +31,7 @@
 					<div class="banner__containertitulo container">
 						<h2 class="banner__titulo">Dezembro Promocional </h2>
 						<h3 class="banner__subtitulo">galeria selecionados com até 33% de Desconto</h3>
-						<button class="banner_botao botao-azul">Ver Consoles</button>
+						<a href="#galeria__consoles"><button class="banner_botao botao-azul">Ver Consoles</button></a>
 					</div>
 			</section>
 
@@ -42,37 +43,37 @@
 					</div>	
 					<ul class="galeria__lista">
 						<li class="galeria__item">
-							<img src="./images/products/StarWars/unsplash_6FDXGY9J6y4.png" alt="Caneca Stormtrooper">
+							<img src="./images/products/StarWars/unsplash_6FDXGY9J6y4.png" alt="Caneca Stormtrooper" class="galeria__imagem">
 							<p class="galeria__descricao">Caneca Stormtrooper</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<a href="produto.html" class="galeria__verproduto link">Ver produto</a>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/StarWars/unsplash_epRFE_hBNjo.png" alt="Cabeça DarthVader">
+							<img src="./images/products/StarWars/unsplash_epRFE_hBNjo.png" alt="Cabeça DarthVader" class="galeria__imagem">
 							<p class="galeria__descricao">Cabeça DarthVader</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/StarWars/unsplash_KeGToDVN0l4.png" alt="Quadro do Mestre Yoda">
+							<img src="./images/products/StarWars/unsplash_KeGToDVN0l4.png" alt="Quadro do Mestre Yoda" class="galeria__imagem">
 							<p class="galeria__descricao">Quadro do Mestre Yoda</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/StarWars/unsplash_4OHkK555s1A.png" alt="Quadro Stormtrooper">
+							<img src="./images/products/StarWars/unsplash_4OHkK555s1A.png" alt="Quadro Stormtrooper" class="galeria__imagem">
 							<p class="galeria__descricao">Quadro do Mestre Yoda</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/StarWars/unsplash_R8L1l9RN198.png" alt="Boneco Yoda">
+							<img src="./images/products/StarWars/unsplash_R8L1l9RN198.png" alt="Boneco Yoda" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Yoda</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/StarWars/unsplash_1VV1MRafd7A.png" alt="Boneco Sith">
+							<img src="./images/products/StarWars/unsplash_1VV1MRafd7A.png" alt="Boneco Sith" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
@@ -82,42 +83,42 @@
 
 				<section class="galeria__container">
 					<div class="galeria__cabecalho">
-						<h1 class="galeria__titulo">Console</h1>
+						<h1 id="galeria__consoles" class="galeria__titulo">Console</h1>
 						<p class="galeria__vertudo link">Ver tudo ➔</p>
 					</div>	
 					<ul class="galeria__lista">
 						<li class="galeria__item">
-							<img src="./images/products/Consoles/unsplash_0POwK6iAiRQ.png" alt="Controle XBox">
+							<img src="./images/products/Consoles/unsplash_0POwK6iAiRQ.png" alt="Controle XBox" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Consoles/unsplash_caNzzoxls8Q.png" alt="Controle e Console XBOX">
+							<img src="./images/products/Consoles/unsplash_caNzzoxls8Q.png" alt="Controle e Console XBOX" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Consoles/unsplash_ZV7lnfyQLmA.png" alt="Nintendinho">
+							<img src="./images/products/Consoles/unsplash_ZV7lnfyQLmA.png" alt="Nintendinho" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Consoles/unsplash_wa5z9o9fgjw.png" alt="Controle Nintendo">
+							<img src="./images/products/Consoles/unsplash_wa5z9o9fgjw.png" alt="Controle Nintendo" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Consoles/unsplash_Zjn4dT993-g.png" alt="Gamecube">
+							<img src="./images/products/Consoles/unsplash_Zjn4dT993-g.png" alt="Gamecube" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Consoles/unsplash_k-xYhI3-gJM.png" alt="Gameboy Color">
+							<img src="./images/products/Consoles/unsplash_k-xYhI3-gJM.png" alt="Gameboy Color" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
@@ -132,37 +133,37 @@
 					</div>	
 					<ul class="galeria__lista">
 						<li class="galeria__item">
-							<img src="./images/products/Diversos/unsplash_fMP-oCze3AY.png" alt="Camisa Atari">
+							<img src="./images/products/Diversos/unsplash_fMP-oCze3AY.png" alt="Camisa Atari" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Diversos/unsplash_bUgaIaZysH0.png" alt="Camisa SNES">
+							<img src="./images/products/Diversos/unsplash_bUgaIaZysH0.png" alt="Camisa SNES" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Diversos/unsplash_sYVY_ZKwaxU.png" alt="Boneco Sonic">
+							<img src="./images/products/Diversos/unsplash_sYVY_ZKwaxU.png" alt="Boneco Sonic" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Diversos/unsplash_jMT6BrgBuXU.png" alt="Radio Relogio">
+							<img src="./images/products/Diversos/unsplash_jMT6BrgBuXU.png" alt="Radio Relogio" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Diversos/unsplash_MxVkWPiJALs.png" alt="Oculos VR">
+							<img src="./images/products/Diversos/unsplash_MxVkWPiJALs.png" alt="Oculos VR" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
 						</li>
 						<li class="galeria__item">
-							<img src="./images/products/Diversos/unsplash_r27umXAelDc.png" alt="Boneco Pelúcia Pikachu">
+							<img src="./images/products/Diversos/unsplash_r27umXAelDc.png" alt="Boneco Pelúcia Pikachu" class="galeria__imagem">
 							<p class="galeria__descricao">Boneco Sith</p>
 							<p class="galeria__preco"> R$90,00</p>
 							<p class="galeria__verproduto link">Ver produto</p>
@@ -204,6 +205,9 @@
 				<p>Desenvolvido por Gabriel Costa<br>2021</p>
 			</div>
 		</footer>
+
+	<script src="./js/busca.js"></script>
+	
 	</body>
 
 

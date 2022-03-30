@@ -45,7 +45,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	position: relative;
-	align-items: center;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	margin: 0;
 	width: 100%;
@@ -55,11 +55,8 @@
 }
 
 .galeria__item {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: left;
 	width: 16%;
+	margin: 0 3px;
 	position: relative
 }
 
@@ -78,6 +75,10 @@
     position: absolute;
     left: 63.5%;
     top: 5.49%;
+}
+
+.galeria__imagem {
+	max-width: 100%;
 }
 
 .galeria__descricao {
@@ -153,4 +154,8 @@
 		flex-direction: column;
 		align-items: flex-start;
 	}
+}
+
+.galeria__lista___busca {
+	justify-content: flex-start;
 }
