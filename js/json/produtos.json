@@ -3,5 +3,10 @@
         "nome":"Caneca Stormtrooper",
         "preco": "R$ 60,00",
         "descricao": "Descricao da Caneca Stormtrooper. Muito bonita e funcional."
+    },
+    {
+        "nome":"Boneco Sith",
+        "preco": "R$ 70,00",
+        "descricao": "Descricao do Boneco Sith. Muito legal e útil para as horas vagas."
     }
 ]
