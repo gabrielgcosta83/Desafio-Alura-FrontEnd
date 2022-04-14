@@ -1,12 +1,17 @@
-
-async function populate() {
-
-    const requestURL = "https://gabrielgcosta83.github.io/Desafio-Alura-FrontEnd/js/json/produtos.json"
-
-    const request = new Request(requestURL);
-    const response = await fetch(request);
-    const produtos = await response.json();
-    console.log(produtos);
-  }
+// function importarProdutos() {
+//   var xhr = new XMLHttpRequest();
+//   xhr.open("GET", "http://localhost:3000/produto", true);
+//   xhr.send();
   
-  populate();
+//   xhr.onload = function() {
+//     if (xhr.status != 200) {
+//       console.log(xhr.statusText);
+//     } else {
+//       var response = xhr.responseText;
+//       var produtos = JSON.parse(response);
+//       console.log("ok!")
+//       console.log(produtos);
+//       return produtos;
+//     }
+//   }
+// }

@@ -12,9 +12,6 @@
 }
 
 .produto__imagem {
-	background-image: url(../images/products/StarWars/unsplash_6FDXGY9J6y4@3x.png);
-	background-size: cover;
-	background-position: center;
 	align-items: center;
 	width: 50%;
 }

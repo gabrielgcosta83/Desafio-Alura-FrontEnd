@@ -91,7 +91,7 @@
 }
 
 .galeria__preco {
-	margin: 8px 0px 0px 0px;
+	margin: 8px 0px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 19px;
@@ -108,12 +108,7 @@
 }
 
 .galeria__verproduto {
-	margin: 8px 0px 0px 0px;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
-	text-decoration: none;
-	color: #2A7AE4;
+
 }
 
 @media screen and (max-width:1024px) {

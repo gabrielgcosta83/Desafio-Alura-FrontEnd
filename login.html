@@ -31,7 +31,7 @@
 					<h2 class="login__titulo">Iniciar Sessão</h2>
 					<form class="login__form">
 						<input type="email" name="email" class="login__email input-padrao" placeholder="Escreva seu e-mail" required>
-						<input type="password" name="password" class="login__password input-padrao" placeholder="Escreva sua senha" required>
+						<input type="password" name="password" class="login__password input-padrao" placeholder="Escreva sua senha" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$" title="A senha deve conter entre 4 e 8 caracteres, uma letra maiuscula, uma letra minuscula e um número" required>
 						<input type="submit" name="submit" class="login__submit botao-azul" value="Entrar">
 					</form>
 				</div>

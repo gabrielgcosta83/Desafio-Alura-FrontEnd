@@ -1,12 +1,150 @@
-[
-    {
+{
+    "produto": [
+        {
+        "categoria":"Star Wars",
+        "urlImagem":"./images/products/StarWars/unsplash_6FDXGY9J6y4.png",
+        "urllink":"",
         "nome":"Caneca Stormtrooper",
         "preco": "R$ 60,00",
-        "descricao": "Descricao da Caneca Stormtrooper. Muito bonita e funcional."
-    },
-    {
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+       
+        {
+        "categoria":"Star Wars",
+        "urlImagem":"./images/products/StarWars/unsplash_epRFE_hBNjo.png",
+        "urllink":"",
+        "nome":"Cabeça DarthVader",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Star Wars",
+        "urlImagem":"./images/products/StarWars/unsplash_4OHkK555s1A.png",
+        "urllink":"",
+        "nome":"Quadro Stormtrooper",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Star Wars",
+        "urlImagem":"./images/products/StarWars/unsplash_KeGToDVN0l4.png",
+        "urllink":"",
+        "nome":"Quadro do Mestre Yoda",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Star Wars",
+        "urlImagem":"./images/products/StarWars/unsplash_R8L1l9RN198.png",
+        "urllink":"",
+        "nome":"Boneco Yoda",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Star Wars",
+        "urlImagem":"./images/products/StarWars/unsplash_1VV1MRafd7A.png",
+        "urllink":"",
         "nome":"Boneco Sith",
         "preco": "R$ 70,00",
-        "descricao": "Descricao do Boneco Sith. Muito legal e útil para as horas vagas."
-    }
-]
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Consoles",
+        "urlImagem":"./images/products/Consoles/unsplash_0POwK6iAiRQ.png",
+        "urllink":"",
+        "nome":"Controle XBox",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Consoles",
+        "urlImagem":"./images/products/Consoles/unsplash_caNzzoxls8Q.png",
+        "urllink":"",
+        "nome":"Controle e Console XBOX",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Consoles",
+        "urlImagem":"./images/products/Consoles/unsplash_ZV7lnfyQLmA.png",
+        "urllink":"",
+        "nome":"Nintendinho",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Consoles",
+        "urlImagem":"./images/products/Consoles/unsplash_wa5z9o9fgjw.png",
+        "urllink":"",
+        "nome":"Controle Nintendo",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Consoles",
+        "urlImagem":"./images/products/Consoles/unsplash_Zjn4dT993-g.png",
+        "urllink":"",
+        "nome":"Gamecube",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Consoles",
+        "urlImagem":"./images/products/Consoles/unsplash_k-xYhI3-gJM.png",
+        "urllink":"",
+        "nome":"Gameboy Color",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Diversos",
+        "urlImagem":"./images/products/Diversos/unsplash_fMP-oCze3AY.png",
+        "urllink":"",
+        "nome":"Camisa Atari",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Diversos",
+        "urlImagem":"./images/products/Diversos/unsplash_bUgaIaZysH0.png",
+        "urllink":"",
+        "nome":"Camisa SNES",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Diversos",
+        "urlImagem":"./images/products/Diversos/unsplash_sYVY_ZKwaxU.png",
+        "urllink":"",
+        "nome":"Boneco Sonic",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Diversos",
+        "urlImagem":"./images/products/Diversos/unsplash_jMT6BrgBuXU.png",
+        "urllink":"",
+        "nome":"Radio Relogio",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Diversos",
+        "urlImagem":"./images/products/Diversos/unsplash_MxVkWPiJALs.png",
+        "urllink":"",
+        "nome":"Oculos VR",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        },
+        {
+        "categoria":"Diversos",
+        "urlImagem":"./images/products/Diversos/unsplash_r27umXAelDc.png",
+        "urllink":"",
+        "nome":"Boneco Pelúcia Pikachu",
+        "preco": "R$ 70,00",
+        "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+        }
+
+    ]
+}
